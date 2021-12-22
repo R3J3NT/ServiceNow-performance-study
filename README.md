@@ -12,6 +12,6 @@ Second part is to use the tool prepared in part one, to study different tips and
 
 ## Table of contents
 
-[Tool](scrits/measure-time-execution.js) - Script which can be used on ServiceNow instance to execute scripts performance tests.
+[Tool](scripts/measure-time-execution.js) - Script which can be used on ServiceNow instance to execute scripts performance tests.
 
 [Researches](/researches) - Researches about scripts performance
