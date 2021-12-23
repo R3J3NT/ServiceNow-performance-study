@@ -1,13 +1,13 @@
 //Script which can be executed as a Background Script to measure time of execution of specified script
 
-var ITERATIONS = 100; //Number of iterations that script should be executed for better avg time results
+var ITERATIONS = 1000; //Number of iterations that script should be executed for better avg time results
 
 var scriptExecution = Class.create(); //Class for every script execution
 scriptExecution.prototype = {
     initialize: function(scriptFunction) {
         this.executionTimePerIteration = []; // Array to keep execution time of every iteration
         this.timerStartTime, this.timerEndTime, this.elapsedTimeMs = null; // Initialize timer variables with null value
-        this.executFunction = scriptFunction;
+        this.executeFunction = scriptFunction;
     },
 
     //Return array of execution time per iteration
@@ -66,7 +66,7 @@ for (var i = 0; i < ITERATIONS; i++) {
 
         scriptsArray[iter].timerStartTime = new Date(); //Start time of Script execution
 
-        scriptsArray[iter].executFunction();
+        scriptsArray[iter].executeFunction();
 
         scriptsArray[iter].timerEndTime = new Date(); //End time of Script execution
         scriptsArray[iter].elapsedTimeMs = scriptsArray[iter].timerEndTime - scriptsArray[iter].timerStartTime; //Calculate elapsed time by subtract starting value from final value
