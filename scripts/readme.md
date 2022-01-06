@@ -4,7 +4,7 @@ Tool prepared for easy and quick measurements of ServiceNow scripts time executi
 
 ### How to use
 
-The easiest way to use this tool is to copy script code [measure-time-execution.js](scripts/measure-time-execution.js) from the repository and use it as a background script.
+The easiest way to use this tool is to copy script code [measure-time-execution.js](measure-time-execution.js) from the repository and use it as a background script.
 
 ##### Go to the Scripts - Background
 
