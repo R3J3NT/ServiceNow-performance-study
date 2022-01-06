@@ -9,7 +9,7 @@ The easiest way to use this tool is to copy script code [measure-time-execution.
 ##### Go to the Scripts - Background
 
 After copying script code, you need to go to application menu and [System Definition] -> [Scripts - Background]
-
+![menu-screen](README-tool-menu-screen.PNG)
 
 
 ##### Configure tool with your scripts
@@ -36,6 +36,9 @@ After that, you can also manipulate with ITERATIONS variable, to set number of i
 ##### Execution and verifying results
 
 After configuration, you can start benchmark using Run script button. When the tool will finish execution, logs with all information about tests will be displayed on the screen. In logs, you will find information about: Number of script, array with all times of executed iterations, average execution time of script, max and min execution time.
+
+
+![menu-screen](README-tool-execute-screen.PNG)
 
 ```
 *** Script: [Time Measure] - SCRIPT#i Array with all iteration times: [...]
