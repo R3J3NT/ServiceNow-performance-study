@@ -2,7 +2,7 @@
 
 ***Research in progress***
 
-For the first topic which I decided to study, I chose performance differences between using GlideRecord and GlideAggregate API. Recently I read [UNDERSTANDING GLIDEAGGREGATE](https://developer.servicenow.com/blog.do?p=/post/glideaggregate/), article on ServiceNow Developer Blog by [ANDREW BARNES](https://developer.servicenow.com/blog.do?p=/authors/andrew-barnes/), which pays attention to the possibility of optimizing in some cases execution times using GlideAggregate API. I decided that I will start with that topic and check if I will be able to reach similar conclusions, to confirm even more that my time measuring [Tool](scripts/measure-time-execution.js) is working properly.
+For the first topic which I decided to study, I chose performance differences between using GlideRecord and GlideAggregate API. Recently I read [UNDERSTANDING GLIDEAGGREGATE](https://developer.servicenow.com/blog.do?p=/post/glideaggregate/), article on ServiceNow Developer Blog by [ANDREW BARNES](https://developer.servicenow.com/blog.do?p=/authors/andrew-barnes/), which pays attention to the possibility of optimizing in some cases execution times using GlideAggregate API. I decided that I will start with that topic and check if I will be able to reach similar conclusions, to confirm even more that my time measuring [Tool](../scripts/measure-time-execution.js) is working properly.
 
 ### Instance version and parameters
 
