@@ -1,6 +1,6 @@
 # ServiceNow Performance Study
 ![Version](https://img.shields.io/badge/tool--version-1.0.0-brightgreen)
-![Researches](https://img.shields.io/badge/researches-1-blue)
+![Researches](https://img.shields.io/badge/researches-2-blue)
 
 On this repository, you can find effects of my study about ServiceNow scripts performance. Time complexity is a very important aspect of any script, which is executing on ServiceNow instance. Especially scripts which are executed often like for example Business Rules or Scheduled jobs executed on large queries can influence on instance health, customer experience and end time of the task execution.
 
